@@ -1,0 +1,104 @@
+body{
+    background-color: #605052;
+}
+
+input{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #605052;
+}
+#header{
+    background-color: #211a23;
+    margin: 0px;
+    padding-top: 10px;
+    box-shadow: 3px 3px;
+}
+#header h1{
+    color: white;
+    display: inline-block;
+    font-size: 100px;
+    margin: 0px;
+
+}
+#header #logo {
+    height: 80px;
+    width: 80px;
+    filter: invert();
+    margin-left: 10%;
+}
+.rotateIcon{
+    transform: rotate(135deg);
+    transition: transform .25s  ease;
+
+}
+.rotateIconReverse{
+    transform: rotate(0deg);
+    transition: transform .25s  ease;
+
+}
+
+.addBook{
+    width: 80px;
+    height: 80px;
+    filter: invert();
+    float: right;
+    margin-right: 15%;
+    display: inline-block;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+
+.fadeIn{
+    -webkit-animation: fadein ease .5s;
+}
+.fadeOut{
+    -webkit-animation: fadeout ease .5s;
+}
+@keyframes fadein {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes fadeout {
+    0%{opacity: 1;}
+    100%{opacity: 0;
+    visibility: hidden;}
+}
+
+
+.addBookContainer{
+    position:fixed;
+    left: -3px;
+    background-color: #211a23;
+    border-top:solid black 1px;
+    width:103%;
+    color: white;
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.innerContent{
+    display: inline-flex;
+    margin-left: 10%;
+}
+.innerContentInputs{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.complete{
+
+}
+#submitBtn{
+
+    height: 50px;
+    width: 200px;
+    background-color: #605052;
+    font-size: 35px;
+    margin-top:30px;
+    margin-left: 20px;
+    display: flex;
+    color: white;
+
+}
