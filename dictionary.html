@@ -13,49 +13,53 @@
     <img src="plus.png" class="addBook" onclick="addBookBtn()">
 
 </div>
-
+<div class = "libraryContainer">
+    <main>
+        <div class="libraryWrap"></div>
+    </main>
+</div>
 
 
 
 
 <div class = "addBookContainer">
+<form id="bookStatus">
    <div class = "innerContent">
-        <div class="innerContentInputs">
+
+       <div class="innerContentInputs">
             <h2>
                 Title
             </h2>
-            <input type = "text">
+            <input type = "text" class = 'title' id="title">
         </div>
 
        <div class="innerContentInputs">
            <h2>
                Author
            </h2>
-           <input type = "text">
+           <input type = "text" class="author" id = "author">
        </div>
        <div class="innerContentInputs" >
            <h2>
                Pages
            </h2>
-           <input type = "text">
+           <input type = "number" class="pages" id = "pages">
        </div>
        <div class="innerContentInputs">
            <h2>
                Read it?
            </h2>
-           <form id="complete">
            <label for="Yes">Yes</label>
-            <input type = "radio" name = "read" id = "Yes" value="Yes">
+           <input type = "radio" name = "read" id = "Yes" value="Yes">
            <label for="No">No</label>
-             <input type = "radio"  name = "read" id = "No" value="No">
-
-           </form>
+           <input type = "radio"  name = "read" id = "No" value="No">
        </div>
-       <div>
 
-       </div>
-       <input id = "submitBtn" type="submit" form="complete" value = "Add Book">
+
+
+       <input id = "submitBtn" type="submit" form="bookStatus" value = "Add Book">
    </div>
+</form>
 
 </div>
 
