@@ -16,7 +16,7 @@ It's a simple library that does the following:
 * Uses local storage to bring up previous books
 
 
-##Issues
+## Issues
 
 Unfortunately I haven't yet figured out how to fully edit the entries but I'll work on that later if I want to come back to this project. 
 <br> 
