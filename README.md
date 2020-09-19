@@ -1,5 +1,5 @@
 # JS-Library
-This library was made for me to practice inheritance. I accidently referred to it as a dictionary due to my tiredness at one point but corrected it 
+This library was made for me to practice inheritance. You can check it out here https://altord.github.io/TOP-Library/
 
 I had originally thought about just making it fairly simple with pop up boxes and the like, however I wanted it to at least look have decent so I ended up spending much longer than I'd like on the animated aspects of this project.
 
@@ -21,3 +21,4 @@ It's a simple library that does the following:
 Unfortunately I haven't yet figured out how to fully edit the entries but I'll work on that later if I want to come back to this project. 
 <br> 
 There's also a slight issue in local memory where it doesn't properly remove an item so it ends up not fully deleting items 
+
